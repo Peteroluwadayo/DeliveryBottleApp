@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <View
+        android:id="@+id/arrow_to_welcome_activity"
+        android:layout_width="30dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_baseline_west_24" />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_baseline_directions_bike_24"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/et_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="UserName"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:background="@drawable/sign_up_background"
+        android:paddingStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="textPersonName"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:hint="Password"
+       android:drawableRight="@drawable/ic_baseline_visibility_off_24"
+       android:layout_marginStart="16dp"
+       android:layout_marginEnd="16dp"
+       android:layout_marginTop="15dp"
+       android:paddingStart="16dp"
+       android:paddingEnd="16dp"
+       android:background="@drawable/sign_up_background"
+       android:id="@+id/password_editText"
+       android:textStyle="bold"
+       android:inputType="textPassword"/>
+
+
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Mobile Number"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:background="@drawable/sign_up_background"
+        android:paddingStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Email"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:background="@drawable/sign_up_background"
+        android:paddingStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="textPersonName"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar_bar"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="signupButtonClicked"
+        android:layout_marginTop="10dp"
+        android:text="Button"/>
+
+</LinearLayout>

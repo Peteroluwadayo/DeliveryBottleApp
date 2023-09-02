@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "400391906755",
+    "project_id": "delivery-bottle-app",
+    "storage_bucket": "delivery-bottle-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400391906755:android:635a9865aa13df20b80976",
+        "android_client_info": {
+          "package_name": "com.example.deliverybottleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400391906755-g8369vh1iome934sjq9rudjvtvib7qhq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmUw5Sa_gMxQG4hlsQxF4wIs7ptyHPdSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400391906755-g8369vh1iome934sjq9rudjvtvib7qhq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

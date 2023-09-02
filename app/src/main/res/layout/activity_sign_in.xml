@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+
+    <View
+        android:id="@+id/arrow_sign_in_sign_up"
+        android:layout_width="30dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_baseline_west_24" />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_baseline_directions_bike_24"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="UserName"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="80dp"
+        android:paddingStart="16dp"
+        android:textSize="16sp"
+        android:background="@drawable/sign_up_background"
+        android:id="@+id/username_editTextSignInName"
+        android:textStyle="bold"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="30dp"
+        android:paddingStart="16dp"
+        android:drawableRight="@drawable/ic_baseline_visibility_off_24"
+        android:textSize="16sp"
+        android:paddingEnd="16dp"
+        android:background="@drawable/sign_up_background"
+        android:id="@+id/editTextSignInPassword"
+        android:textStyle="bold"
+        android:inputType="textPassword"/>
+
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="25dp"
+    android:layout_marginStart="16dp"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/txtSignInForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        android:onClick="txtSignInForgetPasswordClicked"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="14dp" />
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txtSignInRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:onClick="txtSignInRegisterClicked"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:paddingStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+       />
+
+</LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar_bar3"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btn_button_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="buttonSignInScrSignInClicked"
+        android:layout_marginTop="30dp"
+        android:text="Sign In"/>
+
+
+</LinearLayout>
